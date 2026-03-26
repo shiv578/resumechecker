@@ -113,8 +113,8 @@ async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             # 📄 OPTIONAL PDF (you can improve later)
             pdf_file = generate_resume_pdf(result["jd_skills"], result["matched"], result["missing"])
-
+  
             with open(pdf_file, "rb") as f:
                 await update.message.reply_document(document=f)
 
-            del user_data_store[user_id]
+            del user_data_store[user_id]  
