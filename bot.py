@@ -6,7 +6,7 @@ from handlers.file_handler import handle_file, handle_query
 # 🚀 Create App
 app = ApplicationBuilder().token(TOKEN).build()
 
-# ✅ Start command
+ # ✅ Start command
 app.add_handler(CommandHandler("start", start))
 
 # 📄 File handler (JD + Resume)
