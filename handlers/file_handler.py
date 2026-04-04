@@ -7,7 +7,7 @@ from services.resume_generator import generate_resume_pdf
 import asyncio
 
 
-# 🔄 CLEAN LOADER (FAST)
+ # 🔄 CLEAN LOADER (FAST)
 async def circular_loader(update):
     steps = [
         "Analyzing JD...",
