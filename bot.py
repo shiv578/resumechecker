@@ -1,4 +1,4 @@
-    from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
+     from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
  from config import TOKEN
 from handlers.start import start
 from handlers.file_handler import handle_file, handle_query
