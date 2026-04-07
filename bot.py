@@ -3,7 +3,7 @@
 from handlers.start import start
 from handlers.file_handler import handle_file, handle_query
 
-# 🚀 Create App
+ # 🚀 Create App
 app = ApplicationBuilder().token(TOKEN).build()
 
  # ✅ Start command
